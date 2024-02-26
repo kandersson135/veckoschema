@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Veckoschema</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="theme-color" content="#00AEEF">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<link rel="apple-touch-icon" href="img/webapp-icon.jpg">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+		<!-- CSS -->
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="header">
+				<ul class="left">
+					<!--<li><a href="#" id="add-btn"><i class="fas fa-plus-circle"></i></a></li>-->
+					<!--<li><a href="#" id="pdf-btn" title="Skapa PDF"><i class="fas fa-file-pdf"></i></a></li>-->
+					<li><a href="#" id="print-btn"><i class="fas fa-print"></i></a></li>
+					<li><a href="#" id="clear-btn" title="Rensa veckoschemat"><i class="fas fa-trash-alt"></i></a></li>
+					<li><a href="#" id="settings-btn" title="Inställningar"><i class="fas fa-cog"></i></a></li>
+					<li><a href="#" id="help-btn" title="Om webbappen"><i class="far fa-question-circle"></i></a></li>
+				</ul>
+
+				<h1 class="right">Veckoschema</h1>
+			</div><!-- END HEADER -->
+
+			<div class="spacer"></div>
+
+		  <div class="table-container">
+			  <table class="table" id="section-to-print">
+	        <thead>
+						<th class="table-monday">Måndag</th>
+	          <th class="table-tuesday">Tisdag</th>
+	          <th class="table-wednesday">Onsdag</th>
+	          <th class="table-thursday">Torsdag</th>
+	          <th class="table-friday">Fredag</th>
+	        	<th class="table-saturday">Lördag</th>
+	        	<th class="table-sunday">Söndag</th>
+	        </thead>
+	        <tbody>
+	          <tr>
+	            <td class="table-monday"></td>
+	            <td class="table-tuesday"></td>
+	            <td class="table-wednesday"></td>
+	            <td class="table-thursday"></td>
+	            <td class="table-friday"></td>
+	            <td class="table-saturday"></td>
+	            <td class="table-sunday"></td>
+	          </tr>
+	        </tbody>
+	      </table><!-- end table -->
+      </div>
+
+      <div class="spacer"></div>
+		</div><!-- END WRAPPER -->
+
+		<!-- JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/fontawesome.all.js"></script>
+    <script src="js/ios-hack.js"></script>
+    <script src="js/main.js"></script>
+	</body>
+</html>
